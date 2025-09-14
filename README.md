@@ -37,7 +37,11 @@ Recursive Case: Defines how the problem is reduced into a smaller subproblem and
 
 ### Working of Recursion
 
-When a recursive function is called, each call is stored on the function call stack in memory. Once the base case is reached, the stored calls begin to resolve in reverse order, unwinding the stack. This stack-based execution is the core of recursion.
+When a recursive function is called, each call is stored on the function call stack in memory. 
+
+Once the base case is reached, the stored calls begin to resolve in reverse order, unwinding the stack. 
+
+This stack-based execution is the core of recursion.
 
 ### Types of Recursion
 
