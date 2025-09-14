@@ -17,12 +17,16 @@ int sum(int n){
 }
 
 int main(){
-    
-    cout<<sum(8); 
-    
+    int a,M;
+    cout<<"Enter a number: ";
+    cin>>M;
+    M=sum(a);
+    cout<<a;
+    return 0;  
 }
 
 //OUTPUT:
 /*
+Enter a number: 8
 36
 */
