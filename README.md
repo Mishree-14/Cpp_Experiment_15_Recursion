@@ -79,6 +79,74 @@ Risk of stack overflow if the base case is missing or incorrect.
 | Reverse String | End of string → stop | reverse(str+1), print(str)   | HELLO         | OLLEH          | String reversal          |
 | Sum of Numbers | n ≤ 1 → 1            | n + sum(n-1)                 | 5             | 15             | Addition recursion       |
 
+## Algorithms
+### Factorial of a Number
+
+Start.
+
+Input a number n.
+
+Define a recursive function factorial(n):
+
+If n <= 1 → return 1 (base case).
+
+Else → return n * factorial(n-1) (recursive case).
+
+Call factorial(n) and store the result.
+
+Display the factorial.
+
+Stop.
+
+### Reverse Digits of a Number
+
+Start.
+
+Input a number n.
+
+Define a recursive function reverseNumber(n):
+
+If n == 0 → return (base case).
+
+Else → print n % 10, then call reverseNumber(n / 10) (recursive case).
+
+Call reverseNumber(n) to display digits in reverse.
+
+Stop.
+
+### Reverse a String
+
+Start.
+
+Input a string str.
+
+Define a recursive function reverseString(str, index):
+
+If str[index] == '\0' → return (base case).
+
+Else → call reverseString(str, index + 1) first, then print str[index] (recursive case).
+
+Call reverseString(str, 0) to display the string in reverse.
+
+Stop.
+
+### Sum of Natural Numbers
+
+Start.
+
+Input a number n.
+
+Define a recursive function sumNumbers(n):
+
+If n <= 1 → return 1 (base case).
+
+Else → return n + sumNumbers(n-1) (recursive case).
+
+Call sumNumbers(n) and store the result.
+
+Display the sum.
+
+Stop.
 
 ## PROGRAM DESCRIPTIONS
 ### Factorial of a Number
